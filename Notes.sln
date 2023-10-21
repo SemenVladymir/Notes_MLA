@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes", "Notes.csproj", "{2E5FE703-E185-46F5-8C09-C9E94C043CE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.DAL", "..\NLayerApp.DAL\NLayerApp.DAL.csproj", "{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2E5FE703-E185-46F5-8C09-C9E94C043CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E5FE703-E185-46F5-8C09-C9E94C043CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E5FE703-E185-46F5-8C09-C9E94C043CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

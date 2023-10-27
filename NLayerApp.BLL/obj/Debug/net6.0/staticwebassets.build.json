@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "qAue0+LYEBAqFKLAmdJfmvkSZrpywH+HsW1rSgtEtfQ=",
+  "Source": "NLayerApp.BLL",
+  "BasePath": "_content/NLayerApp.BLL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\NLayerApp.DAL\\NLayerApp.DAL.csproj",
+      "Version": 2,
+      "Source": "NLayerApp.DAL",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -4,6 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes", "Notes.csproj", "{2E5FE703-E185-46F5-8C09-C9E94C043CE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A123AD26-A151-4443-A07B-A41AAB08E98F} = {A123AD26-A151-4443-A07B-A41AAB08E98F}
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A} = {FE01E490-FAF6-4A2C-8F6E-85741E30E27A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.DAL", "..\NLayerApp.DAL\NLayerApp.DAL.csproj", "{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.BLL", "..\NLayerApp.BLL\NLayerApp.BLL.csproj", "{A123AD26-A151-4443-A07B-A41AAB08E98F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,14 @@ Global
 		{2E5FE703-E185-46F5-8C09-C9E94C043CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E5FE703-E185-46F5-8C09-C9E94C043CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E5FE703-E185-46F5-8C09-C9E94C043CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE01E490-FAF6-4A2C-8F6E-85741E30E27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A123AD26-A151-4443-A07B-A41AAB08E98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A123AD26-A151-4443-A07B-A41AAB08E98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A123AD26-A151-4443-A07B-A41AAB08E98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A123AD26-A151-4443-A07B-A41AAB08E98F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
